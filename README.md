@@ -6,15 +6,28 @@ This is a supplement to the article [Simplifying Browser Uploads By Bypassing Th
 
 You will need [Node.js](https://nodejs.org).
 
-Get an AWS account
-Create an S3 bucket
-Create a new user in IAM Role Management who can upload video to your bucket
-generate a key pair (refer to the article for details),
-then run:
+* Get an AWS account
 
+* Create an S3 bucket
 
+* Create a new user in IAM Role Management who can upload video to your bucket. Save this generated key pair.
 
-``` shell
+* Edit config file (at ./config/config.js) with your configuration.
+
+Sample config:
+
+```
+{
+    accessKey: "AKIOPGTA25GJRUVB26QW",
+    secretKey: "3WqBjXT4vAJUwGv5RbzASpljioHTINnLFK87",
+    bucket: "my-bucket.ninetyone.com",
+    region: "us-west-1"
+};
+```
+
+* Then run:
+
+```
 node server.js
 ```
 
