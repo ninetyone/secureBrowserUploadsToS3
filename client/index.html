@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Secure Browser Uploads To S3</title>
+    <script src="/client.js"></script>
+</head>
+<body>
+    <h1>Secure Browser Uploads To S3</h1>
+    <div class="upload-container">
+        <span>Select a File to upload</span>
+        <br/><br/>
+        <input type="file" class="file-selector" onchange="uploadFile(uploadFileToS3)">
+        <br/><br/>
+        <span class="upload-result"></span>
+    </div>
+</body>
+</html>
