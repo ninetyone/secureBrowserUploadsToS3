@@ -1,0 +1,15 @@
+{
+  "name": "s3-broswer-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Akshay Goyal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
